@@ -1,10 +1,6 @@
 H1 {
   color: rgba(9, 73, 211, 0.904);
-  font-family: cursive;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   background-color: rgba(183, 183, 184, 0.918);
-}
-
-head {
-  color: rgb(0, 0, 0);
 }
