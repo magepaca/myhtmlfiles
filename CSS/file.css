@@ -11,13 +11,16 @@ H2 {
   color: rgba(250, 250, 250, 0.904);
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
+  border-width: 10px;
 }
 p {
   color: rgba(238, 238, 238, 0.904);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   background-color: rgb(25, 136, 211);
-  block-size: 100px;
+  block-size: 10px;
+  padding: 50px;
+  border-width: 5px;
 }
 details {
   color: rgba(9, 73, 211, 0.904);
