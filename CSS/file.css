@@ -9,10 +9,25 @@ div {
   box-sizing: border-box;
   width: 40%;
   display: inline-block;
-  height: 200px;
+  height: 300px;
   border: 20px solid #000000;
-  padding: 15px;
-  margin: 0 auto;
-  margin-top: 50px;
+  padding: 10px;
+  margin: 0.5% auto;
+  margin-top: 1%;
+}
+footer {
+  clear: both;
+  background: rgba(247, 124, 9, 0.918);
+  height: 100px;
+  padding: 10px;
+}
+a {
+  display: block;
+  font-weight: lighter;
+  background-color: #0006bb;
+  width: 200px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
 }
 /*comments*/
