@@ -1,0 +1,79 @@
+/* Set the table color, border, and space*/
+table.cal {
+  color: #06425c;
+  border-spacing: 0;
+  border: 3px solid black;
+  -webkit-border-radius: 25px 25px 0 0;
+  border-radius: 0 0 25px 25px;
+}
+/*alternate color between even and odd*/
+tr:nth-child(odd) {
+  background: #f2f2f2;
+}
+tr:nth-child(even) {
+  background: #cdbb79;
+}
+/* To curve the bottom, curve row and the element, and each element curve a different corner*/
+tr:last-child {
+  -webkit-border-radius: 25px 25px 0 0;
+  border-radius: 0 0 25px 25px;
+}
+tr:last-child.td:last-child {
+  -webkit-border-radius: 0 0 25px 25px;
+  border-radius: 0 0 25px 0;
+}
+/*format the caption use border-radius for just some corners*/
+.cal caption {
+  text-transform: uppercase;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 130%;
+  -webkit-border-radius: 25px 25px 0 0;
+  border-radius: 25px 25px 0 0;
+}
+/*format common heading and element attribute */
+.cal th,
+.cal td {
+  margin: 2px;
+  padding-bottom: 2px;
+}
+/*Format the table heading*/
+.cal td {
+  width: 75px;
+  height: 75px;
+  vertical-align: top;
+}
+.holiday {
+  margin: 0;
+  padding: 0;
+  background-color: #51a39d;
+}
+body {
+  background: #b3b3b3;
+  font-size: 120%;
+  margin: 4%;
+}
+header,
+footer {
+  background: #666666;
+  text-align: center;
+  padding: 15px;
+}
+h1 {
+  color: #ffffff;
+}
+nav {
+  font-variant: small-caps;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+  width: 22%;
+  display: inline-block;
+  background: #f2f2f2;
+}
+.half {
+  width: 22%;
+  display: inline-block;
+  background: #f2f2f2;
+}
