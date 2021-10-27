@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UFT-8">
+    <meta charset="utf-8">
     <title>
         My Third Page
     </title>
@@ -10,7 +10,16 @@
 
 <body>
 
-    <h1> Hello there &nbsp; &gt; &nbsp; &copy; &lt; &nbsp; </h1>
+    <h1 id="test">Tester</h1>
+    <script>
+        document.getElementById('test').innerHTML = "Hello world";
+    </script>
+    <p>What happens if you have two elements with id = "test"?
+
+    </p>
+    <p> Other P</p>
+
 </body>
+
 
 </html>

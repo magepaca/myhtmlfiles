@@ -15,8 +15,8 @@ div {
   background: #2db34a;
   line-height: 50px;
   text-align: center;
-  width: 250px;
-  height: 100px;
+  width: 450px;
+  height: 600px;
   border-radius: 6px;
   transition-property: color, width, background, border-radius;
   transition-duration: 0.5s;
@@ -26,7 +26,7 @@ div {
 div:hover {
   color: #ffffff;
   font-size: 120%;
-  width: 260px;
+  width: 460px;
   background: #f39b18;
   border-radius: 10%;
 }
@@ -36,4 +36,16 @@ div:active {
   width: 260px;
   background: #f39b18;
   border-radius: 5%;
+}
+
+p {
+  border: 1px solid whitesmoke;
+  width: 50%;
+  /*position: static;
+  top: 200px;
+  left: 200px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;*/
 }
